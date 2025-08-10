@@ -138,7 +138,7 @@ function displayProducts() {
         }
         // WhatsApp message with more details
         const whatsappMessage = `🛠️ *Product Inquiry - Modern Ply Gallery*\n\n📦 *Product:* ${name}\n🔢 *Part Number:* ${partNumber}\n💰 *Price:* ${price ? `₹${price.toLocaleString('en-IN')}` : 'Please contact for price'}\n📊 *Stock:* ${stock ? `${stock} units available` : 'Please check availability'}\n📋 *Status:* ${stockText}\n${formattedDate ? `📅 *Last Restocked:* ${formattedDate}` : ''}\n\nCould you please provide more details and confirm availability?\n\nThank you! 🙏`;
-        const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent(whatsappMessage)}`;
+        const whatsappUrl = `https://wa.me/919622749083?text=${encodeURIComponent(whatsappMessage)}`;
         return `
             <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden card-hover interactive-border fade-in-up" style="animation-delay: ${index * 0.1}s">
                 <!-- Product Image -->
